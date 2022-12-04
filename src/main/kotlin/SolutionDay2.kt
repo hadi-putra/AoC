@@ -1,4 +1,4 @@
-class Solution2(fileInput: String): BaseSolution(fileInput) {
+class SolutionDay2(fileInput: String): BaseSolution(fileInput) {
     override fun part1(lines: List<String>): Int {
         val meScore = mapOf("X" to 1, "Y" to 2, "Z" to 3)
         val roundScore = mapOf("A X" to 3, "A Y" to 6, "A Z" to 0,

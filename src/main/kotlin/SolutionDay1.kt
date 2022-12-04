@@ -1,7 +1,7 @@
 import java.io.File
 import java.util.*
 
-class Solution1 (fileName: String): BaseSolution(fileName) {
+class SolutionDay1 (fileName: String): BaseSolution(fileName) {
 
     override fun part1(lines: List<String>): Int {
         var curSum = 0
